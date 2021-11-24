@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainSceneController">
+   <children>
+      <Label layoutX="139.0" layoutY="301.0" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: white;" text="Green Mile" textAlignment="RIGHT">
+         <font>
+            <Font name="MT Extra" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="buttonGreenMile" fitHeight="278.0" fitWidth="187.0" layoutX="95.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GreenMile.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
